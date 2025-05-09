@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./assets/logo.png" type="image/svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>Invitation</title>
+</head>
+
+<body>
+    <div id="splash">
+        <div class="hearts">
+            <img src="./assets/miniHeart.png" alt="miniHeart" class="hearts-heart">
+            <img src="./assets/miniHeartLight.png" alt="miniHeartLight" class="hearts-heartLight">
+        </div>
+        <div>
+            <div id="text-container"></div><span id="cursor">|</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="children">
+            <div class="children-photos">
+                <div class="children-photos-andrew frame">
+                    <img src="./assets/alex.png" alt="Alex" class="children-img">
+                    Саша
+                </div>
+                <div class="children-photos-kate frame">
+                    <img src="./assets/diana.png" alt="Diana" class="children-img">
+                    Диана
+                </div>
+            </div>
+            <div class="children-plus">
+                <div class="text">
+                    <h2>Саша + Диана</h2>
+                    <h2>=</h2>
+                </div>
+                <br>
+                <img src="./assets/heart.svg" alt="heart" class="heart" style="width: 70px;">
+            </div>
+        </div>
+        <div class="recognize">
+            <h2>Узнали?</h2>
+            <p>Эти милые малыши - это мы в детстве!
+                Кажется, что совсем недавно мы делали
+                свои первые шаги, в уже сегодня
+                приглашаем вас стать свидетелям
+                важного события в нашей жизни
+            </p>
+            <div class="recognize-img frame">
+                <img src="./assets/we0.png" alt="we" class="we">
+                А это мы уже вместе!
+            </div>
+        </div>
+        <div class="dears">
+            <h2>Александр & Диана</h2>
+            <h3>Дорогие родные и близкие!</h3>
+            <p>Мы хотим, чтобы в этот особенный день<br>
+                вы были рядом с нами и стали <br>
+                свидетелями рождения нашей семьи! <br>
+                Приглашаем вас на нашу свадьбу!</p>
+            <div class="dears-date">
+                <img src="./assets/date.png">
+            </div>
+        </div>
+
+        <div class="place">
+            <h3>Локация</h3>
+            <p>
+                Банкетный зал “Макси” <br>пос. Усть-Ордынский,<br> ул. Аптечная, д. 1е
+            </p>
+            <form action="https://2gis.ru/irkutsk/directions/points/%7C104.304523%2C52.276115%3B70000001051500460">
+                <button id="buildRoute">Проложить маршрут</button>
+            </form>
+        </div>
+        
+        <div class="dress">
+            <h2>Дресс-код</h2>
+            <p>
+                Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы выберите светлые тона
+            </p>
+            <div class="dress-colors">
+                <div class="dress-colors-bej color"></div>
+                <div class="dress-colors-yellow color"></div>
+                <div class="dress-colors-green color"></div>
+                <div class="dress-colors-blue color"></div>
+                <div class="dress-colors-pink color"></div>
+            </div>
+        </div>
+        <div class="waitForYou">
+            <h2>Мы ждём вас!</h2>
+            <p>
+                    Не забудьте взять с собой хорошее настроение.<br> До скорой встречи! ❤️</p>
+            <p class="waitForYou-withCares">С заботой, <br> Семья Протасовых</p>
+        </div>
+        <div class="contacts">
+            <h2>Контакты</h2>
+            <p>Если вы приготовили для нас сюрприз,
+                не забудьте предупредить об этом нашего свадебного координатора </p>
+            <a href="tel:89242954851">Виктория: +7 924 295 4851 </a>
+            <a href="https://t.me/alexander38com"><img src="./assets/telegram.svg" alt="telegram"></a>
+        </div>
+        <div class="waitForYou">
+            <h2>Будем вас ждать!</h2>
+            <img src="./assets/heart.svg" alt="heart" class="heart">
+            <div class="frame" id="26">
+                <img src="./assets/we.JPG" alt="we">
+                С большой любовью, Александр и Диана!
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
