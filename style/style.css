@@ -18,7 +18,7 @@ body {
     color: #BA2727;
     overflow-x: hidden;
 }
-@media (min-width: 769px) {
+@media (min-width: 600px) {
     .container {
         transform: scale(1.5);
         transform-origin: top center;
