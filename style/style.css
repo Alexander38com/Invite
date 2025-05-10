@@ -322,10 +322,10 @@ p {
     align-items: center;
     position: relative;
     margin-bottom: 40px;
-    text-decoration-color: #36345b;
+    color: #36345b
 }
-.time h2{
-    text-decoration-color: #36345b;
+.time-text{
+    color: #36345b
     margin-bottom: 20px;
     max-width: 277px;
 }
