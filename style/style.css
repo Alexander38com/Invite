@@ -18,9 +18,9 @@ body {
     overflow-x: hidden;
     max-width: 100 vw;
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .container {
-        transform: scale(0.5);
+        transform: scale(1.5);
         transform-origin: top center;
    }
 }
