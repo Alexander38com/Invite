@@ -16,7 +16,7 @@ body {
     background-color: #FEFAF5 ;
     color: #BA2727;
     overflow-x: hidden;
-    max-width: 100 vw;
+    max-width: 80 vw;
 }
 @media (max-width: 460px) {
     .children-photos {
@@ -37,7 +37,7 @@ body {
 
 @media (min-width: 736px) {
     .container {
-        transform: scale(1.3);
+        transform: scale(1.2);
         transform-origin: top center;
    }
 }
