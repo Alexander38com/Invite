@@ -322,6 +322,10 @@ p {
     align-items: center;
     margin-bottom: 50px;
 }
+.dress p {
+    margin-bottom: 40px;
+    max-width: 277px;
+}
 .dress-colors {
     display: flex;
 }
@@ -379,6 +383,10 @@ p {
     width: 100%;
     margin-bottom: 50px;
 }
+.waitForYou p {
+    margin-bottom: 40px;
+    max-width: 277px;
+}
 .waitForYou-mainText {
     text-align: left;
 }
@@ -407,6 +415,10 @@ p {
 }
 .contacts a img {
     width: 35px;
+}
+.contacts p {
+    margin-bottom: 40px;
+    max-width: 277px;
 }
 .waitForYou {
     display: flex;
