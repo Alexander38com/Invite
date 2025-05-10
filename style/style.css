@@ -19,7 +19,7 @@ body {
     max-width: 100 vw;
 }
 @media (max-width: 350px) {
-    .children {
+    .children-photos {
         transform: scale(0.5);
         transform-origin: top center;
    }
