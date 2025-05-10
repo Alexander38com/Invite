@@ -325,9 +325,13 @@ p {
     color: #36345b
 }
 .time-text{
-    color: #36345b
-    margin-bottom: 20px;
+    font-family: 'Caveat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     max-width: 277px;
+    color: #36345b
 }
 .dress {
     display: flex;
