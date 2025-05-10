@@ -24,7 +24,7 @@ body {
         transform-origin: top center;
    }
 }
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .container {
         transform: scale(0.5);
         transform-origin: top center;
