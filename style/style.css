@@ -332,6 +332,11 @@ p {
     position: relative;
     max-width: 277px;
     color: #36345b
+    text-align: center;
+}
+.time-text h2{
+    font-family: 'Caveat', sans-serif;
+    text-align: center;
 }
 .dress {
     display: flex;
