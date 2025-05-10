@@ -18,9 +18,9 @@ body {
     overflow-x: hidden;
     max-width: 100 vw;
 }
-@media (max-width: 350px) {
+@media (max-width: 460px) {
     .children-photos {
-        transform: scale(0.5);
+        transform: scale(0.75);
         transform-origin: top center;
    }
 }
