@@ -309,20 +309,23 @@ p {
     margin-right: 3px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
-.dress-colors-bej {
-    background-color: #efd7b8;
+.dress-colors-1 {
+    background-color: #D3DCD9;
 }
-.dress-colors-yellow {
-    background-color: #f5eec5;
+.dress-colors-2 {
+    background-color: #DDE2C2;
 }
-.dress-colors-green {
-    background-color: #c7d8bb;
+.dress-colors-3 {
+    background-color: #CEDBBF;
 }
-.dress-colors-blue {
-    background-color: #cae5f7;
+.dress-colors-4 {
+    background-color: #EAE5CD;
 }
-.dress-colors-pink {
-    background-color: #ffc4c4;
+.dress-colors-5 {
+    background-color: #E7C9BE;
+}
+.dress-colors-6 {
+    background-color: #4F362F;
 }
 
 .loader {
