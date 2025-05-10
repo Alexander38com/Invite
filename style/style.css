@@ -367,15 +367,17 @@ p {
 }
 .waitForYou-withCares {
     display: block;
-    width: 100%;
+    width: 90%;
     text-align: right;
 }
 .contacts {
+    width: 100%
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     margin-bottom: 50px;
+    
 }
 .contacts .plane {
     position: absolute;
