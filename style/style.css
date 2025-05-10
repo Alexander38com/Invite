@@ -278,6 +278,10 @@ p {
     align-items: center;
     margin-bottom: 40px;
 }
+.dears p {
+    margin-bottom: 40px;
+    max-width: 277px;
+}
 .dears-date img{
     display: flex;
     flex-direction: column;
