@@ -423,7 +423,6 @@ p {
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-bottom: 50px;
     width: 100%
 }
 .contacts .plane {
@@ -438,6 +437,7 @@ p {
 }
 .contacts a img {
     width: 35px;
+    margin-bottom: 50px;
 }
 .contacts p {
     margin-bottom: 40px;
