@@ -20,12 +20,6 @@ body {
 }
 @media (min-width: 768px) {
     .container {
-        transform: scale(1.5);
-        transform-origin: top center;
-   }
-}
-@media (min-width: 700px) {
-    .container {
         transform: scale(0.5);
         transform-origin: top center;
    }
