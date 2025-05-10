@@ -6,13 +6,6 @@ let index = 0;
 const textContainer = document.getElementById("text-container");
 const splash = document.getElementById("splash");
 const content = document.getElementsByClassName("container")[0];
-const yes = document.getElementById("yes");
-const no = document.getElementById("no");
-const nameInput = document.getElementById("name");
-const formSubmit = document.getElementById("formSubmit");
-const can = document.getElementById("can");
-
-
 
 
 // Функция для имитации печати текста
