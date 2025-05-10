@@ -30,9 +30,7 @@ body {
         transform-origin: top center;
    }
 }
-@media (min-width: 460px) {
-    font-size: 150%;
-}
+
 #splash {
     display: flex;
     flex-direction: column;
@@ -413,4 +411,7 @@ p {
 .waitForYou .frame {
     transform: rotate(10deg);
     color: #36345b;
+}
+@media (min-width: 460px) {
+    font-size: 150%;
 }
