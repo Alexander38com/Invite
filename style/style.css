@@ -449,7 +449,7 @@ p {
     align-items: center;
 }
 .icons-item{
-    position: relative;
+    display: flex;
 }
 .waitForYou {
     display: flex;
