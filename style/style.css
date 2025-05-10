@@ -26,7 +26,21 @@ body {
 }
 @media (min-width: 736px) {
     .container {
-        transform: scale(1.5);
+        transform: scale(1.2);
+        transform-origin: top center;
+   }
+}
+@media (min-width: 736px) {
+    .p {
+        transform: scale(1.3);
+        transform-origin: top center;
+   }
+    .h3 {
+        transform: scale(1.3);
+        transform-origin: top center;
+   }
+    .h2 {
+        transform: scale(1.3);
         transform-origin: top center;
    }
 }
@@ -371,13 +385,12 @@ p {
     text-align: right;
 }
 .contacts {
-    width: 100%
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     margin-bottom: 50px;
-    
+    width: 100%
 }
 .contacts .plane {
     position: absolute;
