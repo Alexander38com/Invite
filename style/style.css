@@ -443,6 +443,14 @@ p {
     margin-bottom: 20px;
     max-width: 277px;
 }
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons-item{
+    position: relative;
+}
 .waitForYou {
     display: flex;
     flex-direction: column;
