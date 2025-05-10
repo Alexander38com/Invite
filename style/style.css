@@ -316,6 +316,18 @@ p {
     border: 2px solid #FEFAF5;
     width: auto;
 }
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.time h2{
+    color: #36345b
+    margin-bottom: 20px;
+    max-width: 277px;
+}
 .dress {
     display: flex;
     flex-direction: column;
