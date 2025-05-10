@@ -18,6 +18,12 @@ body {
     overflow-x: hidden;
     max-width: 100 vw;
 }
+@media (max-width: 350px) {
+    .children {
+        transform: scale(0.5);
+        transform-origin: top center;
+   }
+}
 @media (min-width: 736px) {
     .container {
         transform: scale(1.5);
