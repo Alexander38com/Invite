@@ -413,5 +413,7 @@ p {
     color: #36345b;
 }
 @media (min-width: 460px) {
-    font-size: 150%;
+    .body {
+        font-size: 150%;
+    }
 }
