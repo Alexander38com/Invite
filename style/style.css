@@ -24,9 +24,9 @@ body {
         transform-origin: top center;
    }
 }
-@media (max-width: 300px) {
+@media (min-width: 300px) {
     .container {
-        transform: scale(0.7);
+        transform: scale(0.5);
         transform-origin: top center;
    }
 }
