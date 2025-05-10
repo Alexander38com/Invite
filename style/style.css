@@ -322,9 +322,10 @@ p {
     align-items: center;
     position: relative;
     margin-bottom: 40px;
+    color: #36345b;
 }
 .time h2{
-    color: #36345b
+    color: #36345b;
     margin-bottom: 20px;
     max-width: 277px;
 }
