@@ -16,11 +16,17 @@ body {
     background-color: #FEFAF5 ;
     color: #BA2727;
     overflow-x: hidden;
-    max-width: 80 vw;
+    max-width: 100 vw;
 }
 @media (min-width: 768px) {
     .container {
         transform: scale(1.5);
+        transform-origin: top center;
+   }
+}
+@media (max-width: 300px) {
+    .container {
+        transform: scale(0.7);
         transform-origin: top center;
    }
 }
@@ -123,7 +129,7 @@ body {
     align-items: center;
     opacity: 0;
     transition: opacity 0.5s;
-    max-width: 80 vw;
+    max-width: 100 vw;
 }
 h2 {
     font-family: 'Gardens', sans-serif;
